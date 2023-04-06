@@ -80,9 +80,10 @@ floats. If ``matrix`` is not a list, a TypeError is raised.
     Traceback (most recent call last):
     TypeError: matrix must be a matrix (list of lists) of integers/floats
 
-Note that an empty list will raise the TypeError
+Note that an empty list will raise the TypeError.
 
 ::
+
     >>> matrix = []
     >>> print(matrix_divided(matrix, 3))
     Traceback (most recent call last):
@@ -97,7 +98,7 @@ But an empty list of lists will succeed.
     [[]]
 
 An identical TypeError is raised if ``matrix`` is not specifically a list of
-lists
+lists.
 
 ::
 
@@ -106,8 +107,8 @@ lists
     Traceback (most recent call last):
     TypeError: matrix must be a matrix (list of lists) of integers/floats
 
-The same TypeError is raised  again if any elements in ``matrix`` are
-neither ints nor floats
+The same TypeError is raised yet again if any elements in ``matrix`` are
+neither ints nor floats.
 
 ::
 
