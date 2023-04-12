@@ -3,7 +3,7 @@
 
 
 def write_file(filename="", text=""):
-    """This function writes a string to a text file(UTF8) and prints number of character written
+    """This function writes a string to text file(UTF8) and prints no of xter
     Args:
         filename: File to be written.
         text: Lines of Strings to be added.
