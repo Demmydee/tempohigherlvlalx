@@ -4,6 +4,7 @@ import json
 
 
 def from_json_string(my_str):
-    """Returns a python data structure object represented \n
-	by a JSON string."""
+    """Returns a python data structure object represented\n
+by a JSON string."""
+
     return json.loads(my_str)
